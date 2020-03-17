@@ -11,7 +11,7 @@ exposure = 5  # number of others each person interactive with each day
 effective_time = 10  # how long can a infected person infect others
 initial = 10  # initial number of infections
 
-# Assume: Infected people will be immune to this virus.
+# Assumption: Infected people will be immune to this virus.
 
 people = [10] * initial + [0] * (n - initial)
 histogram = []
