@@ -9,6 +9,8 @@ Simulate the spread of Coronavirus and perhaps predict the trend.
 
 - Infected people have 10 days to interact with others before been discovered and quarantined.
 
+- The virus infectivity in relate to the temparature (eg. Summer) has not been considered.
+
 # Future work
 
 - Fit the curve with real-world data. For instance, from [coronavirus_dashboard](https://github.com/RamiKrispin/coronavirus_dashboard).
