@@ -52,5 +52,6 @@ Simulate the spread of Coronavirus and perhaps predict the trend.
 
   <img src="/Plots/Plot_0.14_with_total.png" width="500"/>
   
-
-Note that when `E*P` is close to 0.1, the curse tends to be more unstable. Also note that when `E*P` is less than 0.1, then the expectation of the number each person infects other will be less than 1.
+  
+- Note that when `E * P` is close to 0.1, the curve tends to be more unstable.
+- Also note that when `E * P` is less than 0.1, the expectation of the number each person infects other will be less than 1, and the virus will die out very soon.
