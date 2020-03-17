@@ -18,33 +18,35 @@ Simulate the spread of Coronavirus and perhaps predict the trend.
 # Plots
 - 0.15
 
-  <img src="/Plots/Plot_015.png" width="500"/>
+  <img src="/Plots/Plot_0.15.png" width="500"/>
 
 - 0.145
 
-  <img src="/Plots/Plot_0145.png" width="500"/>
+  <img src="/Plots/Plot_0.145.png" width="500"/>
 
 - 0.14
 
-  <img src="/Plots/Plot_014.png" width="500"/>
+  <img src="/Plots/Plot_0.14.png" width="500"/>
 
 - 0.135
 
-  <img src="/Plots/Plot_0135.png" width="500"/>
+  <img src="/Plots/Plot_0.135.png" width="500"/>
  
 - 0.13
 
-  <img src="/Plots/Plot_013.png" width="500"/>
+  <img src="/Plots/Plot_0.13.png" width="500"/>
 
-- 0.125 (2 images)
+- 0.125
 
-  <img src="/Plots/Plot_0125_1.png" width="500"/>
-  <img src="/Plots/Plot_0125_2.png" width="500"/>
-
-- 0.12 (3 images)
-
-  <img src="/Plots/Plot_012.png" width="500"/>
-  <img src="/Plots/Plot_012_2.png" width="500"/>
-  <img src="/Plots/Plot_012_3.png" width="500"/>
+  <img src="/Plots/Plot_0.125.png" width="500"/>
   
+- 0.12
+
+  <img src="/Plots/Plot_0.12.png" width="500"/>
+
+- Newly infected + Total infected
+
+  <img src="/Plots/Plot_0.14_with_total.png" width="500"/>
+  
+
 Note that when `E*P` is close to 0.1, the curse tends to be more unstable. Also note that when `E*P` is less than 0.1, then the expectation of the number each person infects other will be less than 1.
