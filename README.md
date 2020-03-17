@@ -5,6 +5,10 @@ Simulate the spread of Coronavirus and perhaps predict the trend.
 
 - Each person picks `E` random people every day to interact with. However, real-world people are clustered. But there are [claims](https://www.youtube.com/watch?v=Kas0tIxDvrg) that in the clustered case, the underlying growth is still logistic.
 
+  * Therefore, new cases `Δ N(t)` is roughly `E * P * N(t-1)`.
+  
+  * `E` is the number of others each person interactive with each day, and `P` is the probability of infection while interacting with someone.
+
 - Infected people can not be infected again.
 
 - Infected people have 10 days to interact with others before been discovered and quarantined.
