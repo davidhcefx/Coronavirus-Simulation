@@ -34,12 +34,12 @@ Simulate the spread of Coronavirus and perhaps predict the trend.
 
   <img src="/Plots/Plot_013.png" width="500"/>
 
-- 0.125 (2 images attached)
+- 0.125 (2 images)
 
   <img src="/Plots/Plot_0125_1.png" width="500"/>
   <img src="/Plots/Plot_0125_2.png" width="500"/>
 
-- 0.12 (3 images attached)
+- 0.12 (3 images)
 
   <img src="/Plots/Plot_012.png" width="500"/>
   <img src="/Plots/Plot_012_2.png" width="500"/>
