@@ -17,7 +17,7 @@ Simulate the spread of Coronavirus and perhaps predict the trend.
 
 # Future work
 
-- Fit the curve with real-world data. For instance, from [Coronavirus cases](https://www.worldometers.info/coronavirus/coronavirus-cases/).
+- Fit the curve with real-world data. For instance, from [Coronavirus cases](https://www.worldometers.info/coronavirus/coronavirus-cases/) or from [RamiKrispin/Coronavirus Dashborad](https://github.com/RamiKrispin/coronavirus_dashboard).
 
 # Plots
 - 0.15
