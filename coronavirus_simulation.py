@@ -14,9 +14,11 @@ initial = 10  # initial number of infections
 # Assumption: Infected people will be immune to this virus.
 
 people = [10] * initial + [0] * (n - initial)
-histogram = []
+newly_infected = []
+total_infected = []
 
 for d in range(days):
+	newcases = 0
 	# Decrease effective_time of each infected people
 	for i, _ in enumerate(people):
 		if people[i] == 1:
@@ -33,18 +35,21 @@ for d in range(days):
 					idx = random.randint(0, n - 1)
 					if people[idx] == 0:
 						people[idx] = effective_time
+						newcases += 1
 
-	count = 0
+	total = 0
 	for i, _ in enumerate(people):
-		if people[i] > 0:
-			count += 1
-	histogram.append(count)
-	print('Day', d, ':', count, 'infected.')
+		if people[i] != 0:
+			total += 1
+	newly_infected.append(newcases)
+	total_infected.append(total)
+	print('[Day %d] New cases: %d, Total: %d' % (d, newcases, total))
 
 
-plot.plot([i + 1 for i in range(days)], histogram,
-		label='E*P = ' + str(exposure * prob))
+x = [i + 1 for i in range(days)]
+plot.plot(x, newly_infected, label='Newly infected')
+# plot.plot(x, total_infected, label='Total infected')
 plot.legend()
 plot.xlabel('Days')
-plot.ylabel('Infected')
+plot.title('E*P = ' + str(exposure * prob))
 plot.savefig('Plot.png')
